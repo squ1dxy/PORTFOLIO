@@ -1,0 +1,186 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header{
+    background: url(../img/header_bg.png) no-repeat center /cover ;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.header_content{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.p{
+    font-size: 50px;
+    color: #70869d;
+    font-family: 'RL';
+}
+
+.r{
+    font-size: 70px;
+    color: #404040;
+    font-family: 'RB';
+}
+
+.main{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.row{
+  display: flex;    
+}
+
+.container{
+ max-width: 1110px;
+ width: 100%;
+}
+
+h3{
+    font-size: 18px;
+    font-family: "RB";
+    color: #1f3750;
+    line-height: 27px;
+    
+}
+
+.main p{
+    font-family: 'RL';
+    color: #70869d;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.main_left , .main_right{
+    max-width: 555px;
+    width: 100%;
+}
+
+.a1{
+    padding: 14px 62px 11px 26px;
+    display: inline-block; 
+    color: #70869d;
+    
+}
+
+.a1:hover{
+    padding: 14px 62px 11px 26px;
+    transition: .3s;
+    background-color: #0092b6;
+    color: white;
+}
+
+.main_left-item1 , .main_right-item1 {
+    margin-bottom: 100px;
+
+}
+
+.main_left-info , .main_right-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_down{
+    margin-top: 150px;
+}
+
+.main_down-item1{
+    margin: 0 82px 0 27px;
+}
+
+.main_down-item4{
+    margin: 0 27px 0 82px;
+}
+
+.main_down-item2{
+    margin-right: 82px;
+}
+
+.main_down h3{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.main_down-info{
+    margin-top: 28px;
+}
+
+.main_down-info p a{
+    color: #1f3750;
+    text-decoration: underline;
+    margin-top: 28px;
+    display: inline-block;
+    font-family: 'RB';
+}
+
+.main_under h3{
+    text-align: center  ;
+    margin-top: 99px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: 'RR';
+}
+
+.main_ul p , .main_ur p{
+    font-family: 'RR';
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.main_ur p:hover , .main_ul p:hover{
+    transition: .3s;
+    color: #33a8c5;
+    cursor: pointer;
+}
+
+.main_ul , .main_ur{
+    max-width: 555px;
+    width: 100%;
+}
+
+.main_under{
+    margin-bottom: 141px;
+} 
+
+.footer .container{
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.f_right p{
+font-size: 14px;
+font-family: 'RR';
+color: #6d6d6d;
+margin-left: 31px;    
+}
+
+.f_left{
+    font-family: 'RB';
+    font-size: 20px;
+    color: #444444;
+}
+
+.footer{
+    margin-bottom: 40px;
+}
+
+.f_right p:hover{
+    transition: .3s;
+    color: #33a8c5;
+    cursor: pointer;
+}
