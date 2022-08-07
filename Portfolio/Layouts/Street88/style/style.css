@@ -489,7 +489,7 @@ html,body {
     .header__list {
         display: none;
     }
-    .header__nav {
+    .header__ {
         padding-top: 30px;
     }
     .header__burger {

@@ -1,6 +1,5 @@
 @import 'fonts.css';
 
-
 /* Root start */
 
 
@@ -40,6 +39,7 @@ h1{
 .navbar {
     padding: 0;
 }
+
 
 .logo {
     font-size: 26px;
@@ -167,6 +167,9 @@ h1{
     margin-bottom: 57px;
 }
 
+.main__title-text > span {
+    color: var(--yellow);
+}
 
 .main__slider {
     background: var(--dark);
@@ -222,6 +225,12 @@ h1{
 }
 .main__slider-angle::before {
     color: var(--yellow_dark);
+}
+
+.mainspan{
+    color: var(--yellow_dark);
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 
@@ -351,6 +360,7 @@ h1{
 }
 
 .footer__social {
+    position: relative;
     padding: 0;
     margin-bottom: 0;
     margin-top: 30px;
@@ -361,6 +371,7 @@ h1{
     color: var(--white);
     font-size: 30px;
     transition: color 300ms;
+    text-decoration: none;
 }
 .footer__social-link:hover {
     color: var(--yellow_dark);
@@ -378,6 +389,55 @@ h1{
 .footer__social-link i:hover{
     transform: scale(1.5);
 }
+
+/* .inff{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.fa-brands{
+    color: #222;
+    font-size: 6em;
+}
+
+.inff::before{
+    font-size: 6em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.inff:nth-child(1)::before{
+    content: "\f09a";
+    color:darkblue;
+    border-bottom: 4px solid darkblue;
+}
+
+.inff:nth-child(2)::before{
+    content: "\f16d";
+    background-image: linear-gradient(45deg,#f09433 0% , #e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 4px solid #dc2743;
+}
+
+.inff:nth-child(3)::before{
+    content: "\f2c6";
+    color: lightblue;
+    border-top: 4px solid lightblue;
+}
+
+.inff:hover::before{
+    height: 100%;
+} */
+
+
 
 
 
@@ -420,7 +480,12 @@ h1{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .footer_social-textmobile{
+        font-size: 1.25rem;
+    }
+    .footermobile{
+        flex-wrap: wrap;
+    }
 }
-
 
 /* Media end */

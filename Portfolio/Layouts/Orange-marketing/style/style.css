@@ -35,11 +35,11 @@
     font-size: 16px;
     color: #4e4e4e;
     margin-left: 34px;
+    transition: color 200ms;
 }
 
 .header__nav-link:hover {
     color: #dd4400;
-    transition: 300ms;
 }
 
 .logo {
@@ -104,11 +104,11 @@
     padding: 12px 0;
     font-size: 16px;
     line-height: 13px;
+    transition: background 200ms;
 }
 
 .btn:hover {
     background: #692a0f;
-    transition: 300ms;
 }
 
 
